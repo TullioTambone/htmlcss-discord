@@ -111,25 +111,19 @@ ul li a{
     margin-bottom: 10%;
 }
 /*main*/
-/*
-main{
-    background-image: url(../img/wave.svg);
-    background-repeat:repeat-y;
-    background-size: 2%;
-}
-*/
+
 .seconda{
     background-color: lightgray;
     margin: -15px;
 }
 
 .box{
-    height: 200px;
+    height: 450px;
     width: 100%;
-
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid red;
 }
 
 .reverse{
@@ -143,32 +137,44 @@ main{
 
 /*contenitore per le immagini*/
 .pics{
-    height: 150px;
-    width: 30%;
-    background-color: pink;
+    width: 40%;
+    height: 100%;
 }
+
+ section{
+    margin-top: 5%;
+ }
 
 /*contenitore per il testo*/
 .text{
-    height: 150px;
     width: 20%;
-    background-color: lightsalmon;
-    border: 1px solid black;
 }
 
+.text > h2{
+    font-size: 50px;
+}
+
+.text p{
+    margin-top: 3%;
+}
 
 /* quarta sezione del main*/
+.box-4{
+    height: 100%;
+}
 
 .sec-4{
-    flex-direction: column;
-    height: 500px;
+    width: 60%;
+    margin: 1% auto;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 2%;
+
 }
 
-.sec-4 > .text, .sec-4 > .pics{
-    width: 50%;
+.img-sf{
+    background-image: url(../img/stars.svg);
 }
-
-
 /*footer*/
 
 footer{
