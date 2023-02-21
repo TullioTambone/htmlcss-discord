@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 li{
@@ -13,12 +14,41 @@ a{
     text-decoration: none;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+
+/*CREAZIONE BOTTONI*/
+
+.bottone{
+    background-color: aliceblue;
+    border-radius: 40px;
+    padding: 1%;
+}
+
+.bottone a{
+    color: black;
+}
+
+.mac-head{
+    padding: 15px;
+    font-style: bold;
+}
+
+.open-d-head{
+    padding: 15px;
+    background-color: rgb(37, 37, 53);
+}
+
+.open-d-head a{
+    color: white;
+}
+
 /*header*/
 
 header{
+    background-image: url(../img/jumbo.png);
+    background-repeat:no-repeat;
+    background-size:cover;
     margin: 0 auto;
-    height: 200px;
-    background-color: blanchedalmond;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -28,43 +58,87 @@ header{
 /*barra superiore*/
 nav{
     width: 60%;
-    background-color: cadetblue;
+    margin: 1%;
+    padding: 0.5%;
     display: flex;
     justify-content: space-around;
 }
 
+
 /*link nav bar*/
 .link{
-    width: 50%;
-    border: 1px solid red;
+    width: 70%;
 }
 
+ul{
+    text-align: center;
+    padding-top: 1.25%;
+}
 /*lista link nav bar*/
 ul li{
     display: inline;
-    margin: 0 15px;
+    margin: 0 25px;
 }
 
+/*color lista tag a*/
+ul li a{
+    color: white;
+}
 
 .container{
     width: 50%;
     height: 150px;
-    background-color: aqua;
+    color: white;
     text-align: center;
-    border: 1px solid black;
+    padding: 2%;
     margin-bottom: 10px;
 }
 
+.container p{
+    margin: 5%;
+    font-size: 20px;
+}
+
+.container h2{
+    font-size: 50px;
+}
+
+.sez-head{
+    width: 30%;
+    margin:5%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10%;
+}
 /*main*/
+/*
+main{
+    background-image: url(../img/wave.svg);
+    background-repeat:repeat-y;
+    background-size: 2%;
+}
+*/
+.seconda{
+    background-color: lightgray;
+    margin: -15px;
+}
 
 .box{
     height: 200px;
     width: 100%;
-    background-color: lightgreen;
-    border: 1px solid black;
+
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.reverse{
+
+    transform: scaleY(-1); 
+    -webkit-transform: scaleY(-1); 
+    -moz-transform: scaleY(-1); 
+    -ms-transform: scaleY(-1); 
+    -o-transform: scaleY(-1);  
 }
 
 /*contenitore per le immagini*/
@@ -100,7 +174,7 @@ ul li{
 footer{
     height: 500px;
     width: 100%;
-    background-color: darkblue;
+    background-color: #23272A;
     display: flex;
     flex-direction: column;
     align-items: center;
