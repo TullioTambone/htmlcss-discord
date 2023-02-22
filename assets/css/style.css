@@ -70,18 +70,18 @@ nav{
     width: 70%;
 }
 
-ul{
+.link ul{
     text-align: center;
     padding-top: 1.25%;
 }
 /*lista link nav bar*/
-ul li{
+.link ul li{
     display: inline;
     margin: 0 25px;
 }
 
 /*color lista tag a*/
-ul li a{
+.link ul li a{
     color: white;
 }
 
@@ -206,7 +206,6 @@ ul li a{
 /*footer*/
 
 footer{
-    height: 500px;
     width: 100%;
     background-color: #23272A;
     display: flex;
@@ -217,33 +216,91 @@ footer{
 
 /*contenitore dei 5 sub-box*/
 .f-box{
-    height: 250px;
     width: 60%;
-    background-color: lightseagreen;
     display: flex;
     justify-content: space-around;
 }
 
 .f-sub-box{
-    border: 1px solid black;
     width: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .f-1{
-    width: 40%;
+    width: 50%;
+    color: #738adc;
+    font-size: 25px;
+}
+
+select{
+    border: #23272A;
+    background-color: #23272A;
+    color: white;
+    font-size: medium;
+}
+
+.ita img{
+    margin-top: 5%;
+    height: 5%;
+}
+/*liste disposte a sx*/
+.f-sub-box ul{
+    text-align: left;
+}
+
+.f-sub-box ul li a{
+    color: white;
+}
+
+.f-sub-box ul li{
+    margin-top: 5%;
+}
+
+.f-sub-box strong{
+    color: #738adc;
+}
+
+/* bottoni social*/
+.fa {
+    font-size: 70%;
+    margin: 3%;
+    width: 2%;
+    color: white;
+}
+
+/*hover*/
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Instagram */
+.fa-instagram{
+    margin-left: 5%;
+}
+/* Facebook */
+.fa-facebook {
+    margin-left: 5%;
+    text-align: center;
+    border-radius: 50%;
+    width: 5%;
+    background: white;
+    color: #23272A;
 }
 
 /*sub-footer*/
 .sub-f{
-    height: 50px;
     width: 60%;
-    border-top: 3px solid red;
-    background-color: beige;
+    border-top: 1px solid #434e73;
     display: flex;
     justify-content: space-between;
+    padding-top: 3%;
+    margin-bottom: 5%;
 }
 
-.logo-f, .bottone-f{
-    width: 100px;
-    background-color: blueviolet;
+.sub-bot{
+    background-color:  #738adc;
+}
+.sub-bot a{
+    color: white;
 }
